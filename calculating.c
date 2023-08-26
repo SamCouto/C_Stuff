@@ -36,7 +36,7 @@ int mtable()
 int main()
 {
   /*Main title of our program:*/
-  printf("From 0 to 10 multiplication tables!");
+  printf("From 0 to 10 multiplication tables!\n");
 
   /*Calling the multiplication tables function:*/
   mtable();
