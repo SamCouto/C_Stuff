@@ -26,12 +26,12 @@ int main()
   measure = 53.234567;
 
   //Printing the information on the screen:
-  printf("Products:\n%s, which price is $%.1f\n", product1, price1);
-  printf("%s, which price is $%.2f\n", product2, price2);
+  printf("Products:\n%s, which price is $%f\n", product1, price1);
+  printf("%s, which price is $%0.2f\n", product2, price2);
 
   printf("\nRecord: %d yerars old, code %d and gender %c\n", age, code, gender);
 
   //Formatting the decimal places with the %f format specifier
-  printf("\nMeasure with eight decimal places: %f\nRouded \"three decimal places\": %.3f\n", measure, measure);
+  printf("\nMeasure with eight decimal places: %f\nRouded \"three decimal places\": %0.3f\n", measure, measure);
   return 0;
 }
