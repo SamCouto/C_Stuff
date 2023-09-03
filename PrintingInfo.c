@@ -23,7 +23,7 @@ int main()
 
   price1 = 2100.0;
   price2 = 650.5;
-  measure = 53.234567;
+  measure = 53.23456;
 
   //Printing the information on the screen:
   printf("Products:\n%s, which price is $%f\n", product1, price1);
@@ -32,6 +32,6 @@ int main()
   printf("\nRecord: %d yerars old, code %d and gender %c\n", age, code, gender);
 
   //Formatting the decimal places with the %f format specifier
-  printf("\nMeasure with eight decimal places: %f\nRouded \"three decimal places\": %0.3f\n", measure, measure);
+  printf("\nMeasure with seven decimal places: %f\nRouded \"three decimal places\": %0.3f\n", measure, measure);
   return 0;
 }
